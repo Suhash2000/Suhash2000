@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+.parent{
+    height: 80vh;
+    width: 80vw;
+    border: 1px solid rgb(106, 100, 100);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.child{
+    
+    border: 1px solid white;
+    font-size: 32px;
+    color: white;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+}
+.child1{
+    grid-column: 1/2;
+    grid-row:1/4 ;
+    background-color: rgb(64, 138, 121);
+    /* background-image: https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg; */
+    background-image: url('https://w0.peakpx.com/wallpaper/1004/647/HD-wallpaper-virat-kohli-batting-virat-kohli-batting-king-kohli-cricketer-sports-face-background.jpg');
+    background-size: cover;
+}
+.child2{
+    grid-column:2/4 ;
+    grid-row: ;
+    background-color: rgb(170, 39, 206);
+    /* background-image: ; */
+    background-image: url('https://www.hindustantimes.com/ht-img/img/2024/11/05/550x309/CRICKET-IND-NZL-TEST-38_1730802617689_1730802630398.jpg');
+    background-size: cover;
+}
+.child3{
+    grid-column: ;
+    background-color: rgb(155, 202, 45);
+   /* background-image: https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg; */
+   background-image: url('https://images2.minutemediacdn.com/image/upload/c_crop,w_692,h_389,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/cricket_on_si/01j7s44j46nrsd3b2qcy.jpg ');
+   background-size: cover;
+}
+.child4{
+    grid-column:2/3 ;
+    background-color: rgb(67, 27, 209); 
+    /* background-image: https://images.pexels.com/photos/1089855/pexels-photo-1089855.jpeg; */
+    background-image:url('https://static.toiimg.com/thumb/msid-115920961,width-400,resizemode-4/115920961.jpg');
+    background-size: cover;
+}
+.child5{
+    grid-column:3/4 ;
+     background-color: rgb(144, 92, 92);
+    /* background-image: 'https://images.pexels.com/photos/235990/pexels-photo-235990.jpeg'; */
+    background-image: url('https://wallpapers.com/images/featured/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg');
+    background-size: cover;
+}
+.child6{
+    grid-column:2/3 ;
+    background-color: rgb(182, 127, 163);
+    /* background-image: ; */
+    background-image:url('https://static.toiimg.com/thumb/msid-114784319,width-1280,height-720,imgsize-30156,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg') ;
+    background-size: cover;
+}
+.child7{
+    grid-column:3/4 ;
+    background-color: rgb(36, 30, 30);
+    background-image:url('https://static.toiimg.com/thumb/msid-111528868,width-400,resizemode-4/111528868.jpg') ;
+    background-size: cover;
+}
+.child8{
+    grid-column:4/5;
+    grid-row: 2/4;
+    background-color: aquamarine;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Virat_Kohli_in_New_Delhi_in_December_2018.jpg/260px-Virat_Kohli_in_New_Delhi_in_December_2018.jpg');
+}

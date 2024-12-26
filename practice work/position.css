@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+.box{
+    height: 200px;
+    width: 150px;
+    background-color: aqua;
+    border: 2px solid white;
+    position: absolute;
+
+}
+.box1{
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+.box2{
+position: absolute;
+top: 0;
+right: 0;
+
+}
+.box3{
+    position: absolute;
+bottom: 0;
+left: 0;
+
+}
+.box4{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+.box5{
+    position: absolute; /* or fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
